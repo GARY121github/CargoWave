@@ -1,5 +1,5 @@
 "use client";
-import { Link } from 'react-router-dom';
+import { Link, useLocation } from 'react-router-dom';
 import React, { useEffect, useState } from 'react';
 import Select from 'react-select';
 
@@ -18,6 +18,8 @@ const Header = () => {
   const [page, setPage] = useState(false);
   const [blog, setBlog] = useState(false);
   const [isOverlayActive, setIsOverlayActive] = useState(false);
+
+  const localtion = useLocation().pathname;
 
   const mobileMenuOpen = () => {
     setMobileMenu(true);
@@ -135,21 +137,25 @@ const Header = () => {
                     <div className="main-header-two__bottom-left">
                       <div className="navbar-wrap main-menu">
                         <ul className="navigation">
-                          <li className="active">
-                            <Link href="#">Home</Link>
+                          <li className={localtion === '/' && "active"}>
+                            <Link href="/">Home</Link>
                           </li>
-                          <li><Link to="/about">About</Link></li>
-                          <li className="menu-item-has-children">
+                          <li className={localtion === '/about' && "active"}>
+                            <Link to="/about">About</Link>
+                          </li>
+                          <li className={`menu-item-has-children ${(localtion === '/service' || localtion === '/road-transport') && "active"}`}>
                             <Link href="#">Services</Link>
                             <ul className="sub-menu">
-                              <li><Link to="services">Services</Link></li>
-                              <li><Link to="road-transport">Road Transport</Link></li>
+                              <li><Link to="/services">Services</Link></li>
+                              <li><Link to="/road-transport">Road Transport</Link></li>
                             </ul>
                           </li>
-                          <li>
+                          <li className={localtion === '/team' && "active"}>
                             <Link to="/team">Team</Link>
                           </li>
-                          <li><Link to="/contact">Contact</Link></li>
+                          <li className={localtion === '/contact' && "active"}>
+                            <Link to="/contact">Contact</Link>
+                          </li>
                         </ul>
                       </div>
                     </div>
@@ -229,7 +235,7 @@ const Header = () => {
                   </li>
                   <li
                     style={{ marginTop: `${service ? "0px" : "0px"}`, zIndex: `${service ? "0" : "999"}`, transition: "0.3s linear" }}>
-                    <Link href="#">Team</Link>
+                    <Link href="/team">Team</Link>
                   </li>
                   <li style={{ marginTop: `${blog ? "0px" : "0px"}`, zIndex: "99999", transition: "0.3s linear" }}>
                     <Link href="/contact">Contact</Link>
