@@ -1,0 +1,32 @@
+[
+  {
+    "icon": "icon-global-network",
+    "title": "Global Network",
+    "description": "Freight Consolidators connects your business with international hubs across the world such as the USA."
+  },
+  {
+    "icon": "icon-right-time-delivery",
+    "title": "Right Time Delivery",
+    "description": "You place your order, and we’ll handle the rest. From pick-up to customs clearance from tracking."
+  },
+  {
+    "icon": "icon-support",
+    "title": "24-Hour Support",
+    "description": "Our dedicated team is on the job, tracking every step of your shipment we’re available 24/7."
+  },
+  {
+    "icon": "icon-special-shipments",
+    "title": "Special Shipments",
+    "description": "If your goods have special movement, storage and handling requirements, we have the expertise."
+  },
+  {
+    "icon": "icon-enter-product-details",
+    "title": "Bespoke Solutions",
+    "description": "We provide personalised intermodal solutions to all seaports and airports around the world."
+  },
+  {
+    "icon": "icon-esteemed-company",
+    "title": "Esteemed Company",
+    "description": "More than 4099 clients across the world have chosen us as their freight partner, because of the competitive."
+  }
+]

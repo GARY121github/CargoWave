@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "image": "/img/service/service-v2-img1.jpg",
+    "iconClass": "icon-road-transport t5",
+    "title": "Load Booking",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing sed eiusmod",
+    "count": "01",
+    "link": "load-booking",
+    "number": "01"
+  },
+  {
+    "id": 2,
+    "image": "/img/service/service-v2-img1.jpg",
+    "iconClass": "icon-road-transport t5",
+    "title": "tracking",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing sed eiusmod",
+    "count": "02",
+    "link": "tracking",
+    "number": "02"
+  },
+  {
+    "id": 3,
+    "image": "/img/service/service-v2-img1.jpg",
+    "iconClass": "icon-road-transport t5",
+    "title": "tracing",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing sed eiusmod",
+    "count": "03",
+    "link": "tracing",
+    "number": "03"
+  },
+  {
+    "id": 3,
+    "image": "/img/service/service-v2-img1.jpg",
+    "iconClass": "icon-experience",
+    "title": "RoadSide Assistance",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing sed eiusmod",
+    "count": "03",
+    "link": "roadside-assistance",
+    "number": "03"
+  }
+]

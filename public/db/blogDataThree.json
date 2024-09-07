@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "author": "Harley Russle",
+    "image1": "/img/blog/blog-v2-img4.jpg",
+    "image2": "/img/blog/blog-v3-img1.jpg",
+    "title": "How technology can help redraw the supply",
+    "category": "Road Freight",
+    "date": "November 13, 2023",
+    "link": "blog-details"
+  },
+  {
+    "id": 2,
+    "author": "Harley Russle",
+    "image1": "/img/blog/blog-v2-img4.jpg",
+    "image2": "/img/blog/blog-v3-img1.jpg",
+    "title": "Advanced Service Functions by Road Transport",
+    "category": "Road Freight",
+    "date": "November 13, 2023",
+    "link": "blog-details"
+  },
+  {
+    "id": 3,
+    "author": "Harley Russle",
+    "image1": "/img/blog/blog-v2-img4.jpg",
+    "image2": "/img/blog/blog-v3-img1.jpg",
+    "title": "Going forward, a new normal that has evolved",
+    "category": "Road Freight",
+    "date": "November 13, 2023",
+    "link": "blog-details"
+  },
+  {
+    "id": 4,
+    "author": "Harley Russle",
+    "image1": "/img/blog/blog-v2-img4.jpg",
+    "image2": "/img/blog/blog-v3-img1.jpg",
+    "title": "Going forward, a new normal that has evolved",
+    "category": "Road Freight",
+    "date": "November 13, 2023",
+    "link": "blog-details"
+  }
+]

@@ -1,0 +1,37 @@
+[
+  {
+    "image": "/img/service/service-v2-img1.jpg",
+    "number": "01",
+    "title": "RoadSide Assistance",
+    "text": "Consectetur bibendum ipsum tincidunt Proin suscipit",
+    "link": "roadside-assistance"
+  },
+  {
+    "image": "/img/service/service-v2-img2.jpg",
+    "number": "02",
+    "title": "Tracing",
+    "text": "The point of using Lorem Ipsum is that it has a more",
+    "link": "tracing"
+  },
+  {
+    "image": "/img/service/service-v2-img3.jpg",
+    "number": "03",
+    "title": "Tracking",
+    "text": "All the Lorem Ipsum generators on the Internet tend",
+    "link": "tracking"
+  },
+  {
+    "image": "/img/service/service-v2-img4.jpg",
+    "number": "04",
+    "title": "Road Transport",
+    "text": "pursue pleasure rationally painful consequencesare extremely",
+    "link": "road-transport"
+  },
+  {
+    "image": "/img/service/service-v2-img1.jpg",
+    "number": "05",
+    "title": "Load Booking",
+    "text": "Consectetur bibendum ipsum tincidunt Proin suscipit",
+    "link": "load-booking"
+  }
+]

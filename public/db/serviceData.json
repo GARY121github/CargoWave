@@ -1,0 +1,30 @@
+[
+  {
+    "image": "/img/service/service-one__img1.jpg",
+    "icon": "/img/icon/services/air-freight.png",
+    "title": "Road Freight",
+    "description": "Following the quality of our service thus having gained trust",
+    "link": "air-transport"
+  },
+  {
+    "image": "/img/service/service-one__img2.jpg",
+    "icon": "/img/icon/services/ocean-freight.png",
+    "title": "Ocean Freight",
+    "description": "Following the quality of our service thus having gained trust",
+    "link": "ocean-freight"
+  },
+  {
+    "image": "/img/service/service-one__img3.jpg",
+    "icon": "/img/icon/services/road-freight.png",
+    "title": "Road Freight",
+    "description": "Following the quality of our service thus having gained trust",
+    "link": "road-transport"
+  },
+  {
+    "image": "/img/service/service-one__img2.jpg",
+    "icon": "/img/icon/services/ocean-freight.png",
+    "title": "Ocean Freight",
+    "description": "Following the quality of our service thus having gained trust",
+    "link": "ocean-freight"
+  }
+]
