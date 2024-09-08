@@ -16,23 +16,23 @@
   .request-services-one--two .shape3 {
     display: none;
   }
-	.main-header-one__outer {
-		padding-left: 260px;
-	}
+  .main-header-one__outer {
+    padding-left: 260px;
+  }
 
-	.faq-one .big-title {
-		display: none;
-	}
+  .faq-one .big-title {
+    display: none;
+  }
 }
 
 @media only screen and (min-width: 1200px) and (max-width: 1770px) {
-	.request-services-one--two__img1 {
-		display: none;
-	}
+  .request-services-one--two__img1 {
+    display: none;
+  }
 
-	.request-services-one--two .shape3 {
-		display: none;
-	}
+  .request-services-one--two .shape3 {
+    display: none;
+  }
 }
 
 @media only screen and (min-width: 1200px) and (max-width: 1350px) {
@@ -1616,7 +1616,9 @@
   }
 
   .about-two__content-bottom {
-    display: block;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start !important;
   }
 
   .about-two__content-bottom .author-box {
@@ -1865,7 +1867,9 @@
   }
 
   .about-three__content-bottom {
-    display: block;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start !important;
   }
 
   .about-three__content-bottom .author-box {

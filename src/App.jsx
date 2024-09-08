@@ -16,14 +16,17 @@ import "./assets/css/module-css/footer.css";
 import React from "react";
 import { Outlet } from "react-router-dom";
 import { Header, Footer } from "./components/index";
+const divStyle = {
+  overflow: 'hidden',
+}
 
 const App = () => {
   return (
-    <>
+    <div style={divStyle}>
       <Header />
       <Outlet />
       <Footer />
-    </>
+    </div>
   )
 }
 

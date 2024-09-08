@@ -1,14 +1,28 @@
 import React from "react";
+import { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import CircleTextThree from "../ui/circle/CircleText"; // Adjust the import path as per your project structure
 
 const AboutSection = () => {
+    const useMediaQuery = (query) => {
+        const [matches, setMatches] = useState(window.matchMedia(query).matches);
+
+        useEffect(() => {
+            const mediaQueryList = window.matchMedia(query);
+            const listener = (event) => setMatches(event.matches);
+            mediaQueryList.addListener(listener);
+            return () => mediaQueryList.removeListener(listener);
+        }, [query]);
+
+        return matches;
+    };
+    const isSmallScreen = useMediaQuery("(max-width: 768px)");
     return (
         <section className="about-three padding">
             <div className="container">
                 <div className="row">
                     {/* <!--Start About Three Img--> */}
-                    <div className="col-xl-6">
+                    <div className="col-xl-6" style={isSmallScreen ? { display: "none" } : {}}>
                         <div className="about-three__img">
                             <div className="shape1">
                                 <img src="/img/shape/about-v3-shape1.png" alt="Shape" />
@@ -19,7 +33,7 @@ const AboutSection = () => {
                             <div className="about-three__img2 wow fadeInRight" data-wow-delay=".1s">
                                 <img src="/img/about/about-v3-img2.jpg" alt="About Image 2" />
                             </div>
-                            <CircleTextThree />
+                            {/* <CircleTextThree /> */}
                         </div>
                     </div>
                     {/* <!--End About Three Img--> */}

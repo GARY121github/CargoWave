@@ -81,6 +81,7 @@ const Header = () => {
   }
 
 
+
   return (
     <header className="main-header main-header-two" style={divStyle}>
       <div id="sticky-header" className={`menu-area ${scrollClassName}`}>
@@ -215,7 +216,7 @@ const Header = () => {
               <div className={`close-btn ${mobileMenu ? "rotate" : ""}`} onClick={mobileMenuClose}>
                 <i className="fas fa-times"></i>
               </div>
-              
+
               <div className="menu-outer">
                 <ul className="navigation">
                   <li style={{ marginTop: `${home ? "0px" : "60px"}`, zIndex: `${home ? "999" : ""}`, transition: "0.3s linear" }}>

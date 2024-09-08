@@ -136,14 +136,14 @@ const About = () => {
                                 </h2>
                             </div>
 
-                            <div className="about-two__content-text">
+                            {/* <div className="about-two__content-text">
                                 <p>
                                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                                     do eiusmod of tempor incididunt ut labore et dolore magna
                                     aliqua. Quis ipsum suspend ultrices gravida risus commodo
                                     viverra maecenas.
                                 </p>
-                            </div>
+                            </div> */}
 
                             <div className="about-two__content-list">
                                 <ul>
