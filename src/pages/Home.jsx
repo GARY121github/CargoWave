@@ -4,7 +4,6 @@ import { Hero, About, Fact, ServiceSection, CompanyBenefit, Testimonials, Pricin
 const Home = () => {
     return (
         <>
-
             <Hero />
             <About />
             <Fact />

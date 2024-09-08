@@ -5,13 +5,21 @@ import "swiper/css/effect-fade";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
 import { Link } from "react-router-dom";
-import { useState } from "react";
-import data from "../../../public/db/heroSliderDataTwo.json";
+import { useEffect, useState } from "react";
+import data from "../../../public/db/heroSliderDataTwo.json"
 
 const Hero = () => {
     const [cde, setCurrentSlide] = useState(0);
-    const [slides, setSlides] = useState([]);
-    const [swiperRef, setSwiperRef] = useState(data);
+    const [slides, setSlides] = useState(data);
+    const [swiperRef, setSwiperRef] = useState(null);
+
+    // useEffect(() => {
+    //     // Fetch the slider data from a public folder or adapt the path accordingly
+    //     fetch("/db/heroSliderDataTwo.json")
+    //         .then((response) => response.json())
+    //         .then((data) => setSlides(data))
+    //         .catch((error) => console.error("Error fetching projects:", error));
+    // }, []);
 
     const handleSlideChange = (swiper) => {
         setCurrentSlide(swiper.realIndex);
