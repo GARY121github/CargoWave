@@ -1,44 +1,37 @@
 [
   {
-    "image": "/img/service/service-v2-img3.jpg",
+    "image": "/img/service/img.jpg",
     "number": "01",
     "title": "RoadSide Assistance",
-    "text": "Consectetur bibendum ipsum tincidunt Proin suscipit",
+    "text": "Breakdowns and unexpected issues can occur at any time on the road, potentially…",
     "link": "roadside-assistance"
   },
   {
-    "image": "/img/service/service-v2-img2.jpg",
+    "image": "/img/service/img2.jpg",
     "number": "02",
     "title": "Tracing",
-    "text": "The point of using Lorem Ipsum is that it has a more",
+    "text": "In addition to real-time tracking, we offer comprehensive tracing services to keep",
     "link": "tracing"
   },
   {
-    "image": "/img/service/service-v2-img3.jpg",
+    "image": "/img/service/img3.jpg",
     "number": "03",
     "title": "Tracking",
-    "text": "All the Lorem Ipsum generators on the Internet tend",
+    "text": "Real-time tracking is essential for ensuring timely deliveries and maintaining transparency",
     "link": "tracking"
   },
   {
-    "image": "/img/service/service-v2-img4.jpg",
+    "image": "/img/service/img4.jpg",
     "number": "04",
-    "title": "Road Transport",
-    "text": "pursue pleasure rationally painful consequencesare extremely",
+    "title": "Invoicing",
+    "text": "Handling invoicing can be time-consuming and complicated, especially when you’re…",
     "link": "road-transport"
   },
   {
     "image": "/img/service/service-v2-img3.jpg",
     "number": "05",
     "title": "Load Booking",
-    "text": "Consectetur bibendum ipsum tincidunt Proin suscipit",
+    "text": "We take the hassle out of finding the best loads for your trucks.",
     "link": "load-booking"
-  },
-  {
-    "image": "/img/service/service-v2-img2.jpg",
-    "number": "02",
-    "title": "Tracing",
-    "text": "The point of using Lorem Ipsum is that it has a more",
-    "link": "tracing"
   }
 ]

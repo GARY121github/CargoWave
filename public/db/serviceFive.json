@@ -1,40 +1,40 @@
 [
   {
     "id": 1,
-    "image": "/img/service/service-v2-img1.jpg",
+    "image": "/img/service/img.jpg",
     "iconClass": "icon-road-transport t5",
     "title": "Load Booking",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing sed eiusmod",
+    "description": "We take the hassle out of finding the best loads for your trucks.",
     "count": "01",
     "link": "load-booking",
     "number": "01"
   },
   {
     "id": 2,
-    "image": "/img/service/service-v2-img1.jpg",
+    "image": "/img/service/img2.jpg",
     "iconClass": "icon-road-transport t5",
-    "title": "tracking",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing sed eiusmod",
+    "title": "Tracking",
+    "description": "Real-time tracking is essential for ensuring timely deliveries and maintaining transparency",
     "count": "02",
     "link": "tracking",
     "number": "02"
   },
   {
     "id": 3,
-    "image": "/img/service/service-v2-img1.jpg",
+    "image": "/img/service/img3.jpg",
     "iconClass": "icon-road-transport t5",
     "title": "tracing",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing sed eiusmod",
+    "description": "In addition to real-time tracking, we offer comprehensive tracing services to keep",
     "count": "03",
     "link": "tracing",
     "number": "03"
   },
   {
     "id": 3,
-    "image": "/img/service/service-v2-img1.jpg",
+    "image": "/img/service/img4.jpg",
     "iconClass": "icon-experience",
     "title": "RoadSide Assistance",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing sed eiusmod",
+    "description": "Breakdowns and unexpected issues can occur at any time on the road, potentially…",
     "count": "03",
     "link": "roadside-assistance",
     "number": "03"

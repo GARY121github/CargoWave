@@ -17,8 +17,12 @@ const ProjectSection = () => {
             .catch((error) => console.error("Error fetching data:", error));
     }, []);
 
+    const divStyle = {
+        overflow: "hidden",
+    };
+
     return (
-        <section className="project-three project-three--about">
+        <section className="project-three project-three--about" style={divStyle}>
             <div className="container">
                 <div className="project-three__top">
                     <div className="sec-title-style3">
