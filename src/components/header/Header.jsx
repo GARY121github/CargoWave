@@ -149,10 +149,6 @@ const Header = () => {
                           </li>
                           <li className={`${(localtion === '/services' || localtion === '/road-transport') && "active"}`}>
                             <Link to="/services">Services</Link>
-                            {/* <ul className="sub-menu">
-                              <li><Link to="/services">Services</Link></li>
-                              <li><Link to="/road-transport">Road Transport</Link></li>
-                            </ul> */}
                           </li>
                           <li className={localtion === '/team' && "active"}>
                             <Link to="/team">Team</Link>
@@ -219,30 +215,24 @@ const Header = () => {
               <div className={`close-btn ${mobileMenu ? "rotate" : ""}`} onClick={mobileMenuClose}>
                 <i className="fas fa-times"></i>
               </div>
-              {/* <div className="nav-logo">
-                <Link href="/"><img src="/img/resource/logo-4.png" alt="Logo" /></Link>
-              </div> */}
+              
               <div className="menu-outer">
                 <ul className="navigation">
                   <li style={{ marginTop: `${home ? "0px" : "60px"}`, zIndex: `${home ? "999" : ""}`, transition: "0.3s linear" }}>
-                    <Link href="/about">About</Link>
+                    <Link to="/">Home</Link>
                   </li>
-                  <li className="menu-item-has-children">
-                    <Link href="#">Services</Link>
-                    <ul className="sub-menu">
-                      <li><Link href="/services">Services</Link></li>
-                      <li><Link href="/road-transport">Road Transport</Link></li>
-                    </ul>
-                    <div className="dropdown-btn" onClick={serviceHandler}>
-                      <span className="fas fa-angle-down"></span>
-                    </div>
+                  <li className="">
+                    <Link to="/about">About</Link>
+                  </li>
+                  <li className="">
+                    <Link to="/services">Services</Link>
                   </li>
                   <li
                     style={{ marginTop: `${service ? "0px" : "0px"}`, zIndex: `${service ? "0" : "999"}`, transition: "0.3s linear" }}>
-                    <Link href="/team">Team</Link>
+                    <Link to="/team">Team</Link>
                   </li>
                   <li style={{ marginTop: `${blog ? "0px" : "0px"}`, zIndex: "99999", transition: "0.3s linear" }}>
-                    <Link href="/contact">Contact</Link>
+                    <Link to="/contact">Contact</Link>
                   </li>
                 </ul>
               </div>
