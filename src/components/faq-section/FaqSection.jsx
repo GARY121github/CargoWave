@@ -36,7 +36,7 @@ const FaqSection = () => {
                                     <Accordion.Body>
                                         <span>Answer:</span>
                                         <p>
-                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                                            To pay for logistics services, it usually depends on the company and the payment methods they offer. Typically, logistics companies provide several options for payment.
                                         </p>
                                     </Accordion.Body>
                                 </Accordion.Item>
@@ -50,7 +50,7 @@ const FaqSection = () => {
                                     <Accordion.Body>
                                         <span>Answer:</span>
                                         <p>
-                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                                            Tracking your shipments is usually straightforward, and logistics companies provide multiple ways to keep you updated.
                                         </p>
                                     </Accordion.Body>
                                 </Accordion.Item>
@@ -64,7 +64,7 @@ const FaqSection = () => {
                                     <Accordion.Body>
                                         <span>Answer:</span>
                                         <p>
-                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                                            Yes, many logistics companies and online retailers allow customers to specify a preferred delivery date, but it depends on the company and service level.
                                         </p>
                                     </Accordion.Body>
                                 </Accordion.Item>
@@ -78,7 +78,7 @@ const FaqSection = () => {
                                     <Accordion.Body>
                                         <span>Answer:</span>
                                         <p>
-                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                                            Shipping for the first time can feel overwhelming, but with the right approach, it’s easy to manage.
                                         </p>
                                     </Accordion.Body>
                                 </Accordion.Item>
