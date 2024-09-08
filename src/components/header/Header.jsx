@@ -76,9 +76,13 @@ const Header = () => {
       preloader();
     };
   }
+  const divStyle = {
+    overflow: 'hidden',
+  }
+
 
   return (
-    <header className="main-header main-header-two">
+    <header className="main-header main-header-two" style={divStyle}>
       <div id="sticky-header" className={`menu-area ${scrollClassName}`}>
         <div className="main-header-two__outer">
           <div className="logo-box-two">
@@ -143,12 +147,12 @@ const Header = () => {
                           <li className={localtion === '/about' && "active"}>
                             <Link to="/about">About</Link>
                           </li>
-                          <li className={`menu-item-has-children ${(localtion === '/service' || localtion === '/road-transport') && "active"}`}>
-                            <Link href="#">Services</Link>
-                            <ul className="sub-menu">
+                          <li className={`${(localtion === '/services' || localtion === '/road-transport') && "active"}`}>
+                            <Link to="/services">Services</Link>
+                            {/* <ul className="sub-menu">
                               <li><Link to="/services">Services</Link></li>
                               <li><Link to="/road-transport">Road Transport</Link></li>
-                            </ul>
+                            </ul> */}
                           </li>
                           <li className={localtion === '/team' && "active"}>
                             <Link to="/team">Team</Link>

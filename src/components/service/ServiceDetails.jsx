@@ -98,7 +98,7 @@ const ServiceDetails = ({ title, transportType, thumbnailOne, thumbnailTwo }) =>
                                     </p>
                                 </div>
 
-                                <div className="services-details-page__content-text3-img">
+                                {/* <div className="services-details-page__content-text3-img">
                                     <div className="shape1">
                                         <img src="/img/shape/services-details-shape1.png" alt="Shape" />
                                     </div>
@@ -110,10 +110,10 @@ const ServiceDetails = ({ title, transportType, thumbnailOne, thumbnailTwo }) =>
                                             </button>
                                         </div>
                                     </div>
-                                </div>
+                                </div> */}
                             </div>
 
-                            <div className="services-details-page__pagination margin-top">
+                            {/* <div className="services-details-page__pagination margin-top">
                                 <div className="single-box">
                                     <div className="icon-box">
                                         <span className="icon-air-transport"></span>
@@ -145,7 +145,7 @@ const ServiceDetails = ({ title, transportType, thumbnailOne, thumbnailTwo }) =>
                                         <span className="icon-ocean-freight1 fs"></span>
                                     </div>
                                 </div>
-                            </div>
+                            </div> */}
                         </div>
                     </div>
 

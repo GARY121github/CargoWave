@@ -1,6 +1,6 @@
 [
   {
-    "image": "/img/service/service-v2-img1.jpg",
+    "image": "/img/service/service-v2-img3.jpg",
     "number": "01",
     "title": "RoadSide Assistance",
     "text": "Consectetur bibendum ipsum tincidunt Proin suscipit",
@@ -28,10 +28,17 @@
     "link": "road-transport"
   },
   {
-    "image": "/img/service/service-v2-img1.jpg",
+    "image": "/img/service/service-v2-img3.jpg",
     "number": "05",
     "title": "Load Booking",
     "text": "Consectetur bibendum ipsum tincidunt Proin suscipit",
     "link": "load-booking"
+  },
+  {
+    "image": "/img/service/service-v2-img2.jpg",
+    "number": "02",
+    "title": "Tracing",
+    "text": "The point of using Lorem Ipsum is that it has a more",
+    "link": "tracing"
   }
 ]
