@@ -87,7 +87,7 @@ const Header = () => {
       <div id="sticky-header" className={`menu-area ${scrollClassName}`}>
         <div className="main-header-two__outer">
           <div className="logo-box-two">
-            <Link href="/"><img src="/img/resource/logo-4.png" alt="Logo" /><p>Cargo Wave</p></Link>
+            <Link href="/"><img src="/img/resource/logo-4.png" alt="Logo" /><p>US Freight Now LLC</p></Link>
           </div>
 
           <div className="menu-area__inner">
